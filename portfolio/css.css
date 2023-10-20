@@ -1,0 +1,85 @@
+.center
+{
+    text-align: center;
+}
+
+.content
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button
+{
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: #4E4FEB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #EEEEEE;
+    width: fit-content;
+    transition-duration: 0.7s;
+}
+
+.buttonDiv
+{
+    text-align: right;
+}
+
+.button:hover
+{
+    transition-duration: 0.7s;
+    box-shadow: 2px 2px #4E4FEB;
+    background-color: #068fff;
+}
+
+.car
+{
+    list-style-image: url(kep_anyagok/dlicence_icon/car.png);
+}
+
+#vgomb
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #068fff;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body
+{
+    color: #EEEEEE;
+}
+
+header
+{
+    padding-top: 3%;
+}
+
+h2
+{
+    background-color: #4E4FEB;
+    text-align: center;
+}
+
+li
+{
+    padding-bottom: 3px;
+}
+
+
+.ico
+{
+    vertical-align: text-bottom;
+}
